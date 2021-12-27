@@ -1,0 +1,15 @@
+C:\Users\dgley\Desktop\projetos\Alunos\bin\Debug\net6.0\Alunos.exe
+C:\Users\dgley\Desktop\projetos\Alunos\bin\Debug\net6.0\Alunos.deps.json
+C:\Users\dgley\Desktop\projetos\Alunos\bin\Debug\net6.0\Alunos.runtimeconfig.json
+C:\Users\dgley\Desktop\projetos\Alunos\bin\Debug\net6.0\Alunos.dll
+C:\Users\dgley\Desktop\projetos\Alunos\bin\Debug\net6.0\ref\Alunos.dll
+C:\Users\dgley\Desktop\projetos\Alunos\bin\Debug\net6.0\Alunos.pdb
+C:\Users\dgley\Desktop\projetos\Alunos\obj\Debug\net6.0\Alunos.csproj.AssemblyReference.cache
+C:\Users\dgley\Desktop\projetos\Alunos\obj\Debug\net6.0\Alunos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dgley\Desktop\projetos\Alunos\obj\Debug\net6.0\Alunos.AssemblyInfoInputs.cache
+C:\Users\dgley\Desktop\projetos\Alunos\obj\Debug\net6.0\Alunos.AssemblyInfo.cs
+C:\Users\dgley\Desktop\projetos\Alunos\obj\Debug\net6.0\Alunos.csproj.CoreCompileInputs.cache
+C:\Users\dgley\Desktop\projetos\Alunos\obj\Debug\net6.0\Alunos.dll
+C:\Users\dgley\Desktop\projetos\Alunos\obj\Debug\net6.0\ref\Alunos.dll
+C:\Users\dgley\Desktop\projetos\Alunos\obj\Debug\net6.0\Alunos.pdb
+C:\Users\dgley\Desktop\projetos\Alunos\obj\Debug\net6.0\Alunos.genruntimeconfig.cache
