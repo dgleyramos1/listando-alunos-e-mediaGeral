@@ -6,6 +6,8 @@ namespace Alunos
     {   
         static void Main(String[] args)
         {
+
+            Aluno[] alunos = new Aluno[20];
             string? opcaoUsuario = obterOpcaoUsuario();
 
             while (opcaoUsuario?.ToUpper() != "X")
@@ -40,6 +42,7 @@ namespace Alunos
 
 
             string? opcaoUsuario = Console.ReadLine();
+            Console.WriteLine();
             return opcaoUsuario;
         }
     }
