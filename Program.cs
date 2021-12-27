@@ -8,6 +8,7 @@ namespace Alunos
         {
 
             Aluno[] alunos = new Aluno[20];
+            var indiceAluno = 0;
             string? opcaoUsuario = obterOpcaoUsuario();
 
             while (opcaoUsuario?.ToUpper() != "X")
@@ -15,10 +16,31 @@ namespace Alunos
                 switch (opcaoUsuario)
                 {
                     case "1":
-                        //TODO: adicionar aluno
+                        Console.WriteLine("Informe o nome do Aluno");
+                        Aluno aluno = new Aluno();
+                        aluno.Nome = Console.ReadLine();
+                        Console.WriteLine("Informe a nota do Aluno");
+                        if(decimal.TryParse(Console.ReadLine(), out decimal nota))
+                        {
+                            aluno.Nota = nota;
+                        }
+                        else
+                        {
+                            throw new ArgumentException("O valor da nota tem que ser decimal!");
+                        }
+
+                        alunos[indiceAluno] = aluno;
+                        indiceAluno++;
+                        
                         break;
                     case "2":
-                        //TODO: inserir aluno
+                        foreach( var a in alunos)
+                        {
+                            if(!String.IsNullOrEmpty(a.Nome))
+                            {
+                                Console.WriteLine($"ALUNO: {a.Nome}   NOTA: {a.Nota}");
+                            }
+                        }
                         break;
                     case "3":
                         //TODO: calcular média
@@ -33,6 +55,7 @@ namespace Alunos
 
         private static string? obterOpcaoUsuario()
         {
+            Console.WriteLine();
             Console.WriteLine("Informe a opção desejada:");
             Console.WriteLine("1- Inserir novo aluno");
             Console.WriteLine("2- Listar alunos");
